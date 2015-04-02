@@ -1,0 +1,17 @@
+[Symbian Zone] dUnlock 2.1.4 S^3 Anna Belle Signed (SISContent)
+
+[SIZE=4][CENTER][B]dUnlock[/B][/SIZE]
+
+[IMG]http://i.imgur.com/ADSnPmN.jpg?1[/IMG]
+
+[B]Description: [/B]
+Phone lock screen, in the style of Android KitKat OS. The details of the missed events. Install a piece of Android KitKat on your phone!
+
+[B]Changelog:[/B]
+-Added support for English language 
+Added-white theme (Section Style - Theme) 
+Font-Section renamed section Clock 
+-Added switch "Sound unlock" 
+-Watch unsupported larger.
+
+[B]P.S. Changes that have been to this version you can find in the info - What's new - and choose the versions that interest you.[/B][/CENTER]

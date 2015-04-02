@@ -1,0 +1,28 @@
+    Connections{
+         target: player;
+         onPlayerStarted:{
+         playerwidget.visible=true;
+         clock.visible=false
+         clock.fontSize=1
+         clock.showDate=false
+             if (!pl)
+             {
+                 coverDisplay=0;
+                 wp.source=wallpaper;
+                 playerblack.visible=false;
+                 wp.fillMode=settings[5]==0?Image.Stretch:Image.PreserveAspectCrop;
+             }
+         }
+         onPlayerClosed:{
+          playerwidget.visible=false;
+          clock.visible=true
+          clock.fontSize=66
+          clock.showDate=true
+          clock.anchors.right=sb.right
+          clock.anchors.rightMargin=66
+          clock.anchors.bottom=sb.top;
+          clock.anchors.topMargin=66;
+             wp.source=wallpaper;
+             playerblack.visible=false;
+             coverDisplay=0;
+         }

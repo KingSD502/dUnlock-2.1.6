@@ -1,0 +1,67 @@
+Полезные методы и синалы в QML для SwipeUnlock/dUnlock
+1) сигналы от application, обрабатываются как обычно через элемент Connections:
+Connections{
+     target: application;
+     onSetToZero:{вызывается при блокировке, можно использовать для сброса положений элементов на "до блокировки" (если есть движущиеся элементы)}
+     onChangeSize: {вызывается при изменении ориентации экрана, параметры w,h - новые ширина, высота}
+     onUpdateWallpaper:{вызывается при необходимости обновления обоев, свойство wallpaper - путь к обоям. в частности "image://skin/<случайное число>" - фоновое изображение темы  }
+     onUpdateStatusBar:{вызывается, перед показом экрана блокировки, когда надо обновить данные в статусбаре. Параметры: (battery - батарея(%),charging - зарядка(0/1),network_signal - уровень сигнала(%),opsos - имя оператора,mode-состояние сети (0-gprs, 1-3G, 2- WiFi),profile - идентификатор профиля (1-беззвучный, 5 - автономный),bt - состояние блютуза (0/1)}
+     }
+	 
+2) сигналы от mover (только для FP2)
+Connections{
+    target: mover;
+    onShowLaunchArea:{вызывается, когда надо показать область с запускаемыми приложениями}
+}
+
+3) сигналы от notify - уведомления
+    Connections{
+        target: notify
+        onAddNotifier:{ добавление нового уведомления параметры from - от кого,text - текст (в случае в непр вызовом - имя контакта),time - время,icon - путь к иконке, type - тип (смс=2, пропущ звонок =5)}
+        onUpdateNotifier:{обновление уведомления, параметры index - номер уведомления ,from,text,time,icon,type - см выше}
+        onRemoveNotifier:{удалемне уведомления, параметр index - номер}
+}
+4) сигналы от player - информация о состоянии плеера
+Connections{
+     target: player;
+     onPlayerStarted:{ плеер запущен, параметр pl, если истина - запущен плеер, иначе - радио}
+     onPlayerClosed:{ плеер закрыт}
+     onUpdateAlbumArt:{ доступна обложка альбома для установки на обои, параметр show-доступна ли она Путь к обложке "image://album/<случайное число>"}
+     onChangeTrackInfo:{изменение инфо о треке, параметры song - песня, artist - исполнитель}
+     onPlaying:{начато воспроизведение}
+     onPaused:{поставлено на паузу}
+     onStopped:{нажато стоп}
+     onChangePos:{изменение позиции, параметры val, len - текущая позиция и длительность в секундах}
+}
+Методы:
+application.Hide(); - вызывает разблокировку
+proxy.MovingChanged(moving); - вызывается при действиях юзера, чтобы избежать блокировки девайса - moving - происходит ли действие сейчас
+mover.MovingChanged(moving); - то же самое для FP2
+application.getTime(); - возвращает текущее время
+application.GetDate() - возвращает текущую дату
+notify.openViewer(index); - открывает просмотр для уведомления с номером index
+player.CheckPlayerState(); - запрос состояния плеера при загрузке
+proxy.GetState(); - то же самое
+player.GoToNowPlaying(); - переход к экрану сейчас играет
+proxy.SeekToPos(percent); - переход плеера на указанный процент песни (50% - половина)
+proxy.Previous(); - пред трек
+proxy.SeekBack(); - перемотка назад
+proxy.StopSeeking(); - остановить перемотку
+proxy.Play(); - начать воспроизведение
+player.ClosePlayer(); закрыть плеер
+proxy.Pause(); - поставить на паузу
+proxy.Next(); - след стек
+proxy.SeekForward(); - перемотка вперед
+
+Другие полезности:
+"image://icons/00000000" - загружает иконку приложения с uid 00000000
+apps - список выдранных приложений для запуска
+application.Launch("00000000") - запускает приложение с UID 00000000 (не забудьте application.Hide())
+
+
+Связь туглов:
+название для 
+Connections{
+        on*****Changed:{hideplayerafterclosing.checked=newstate;}
+        }
+Брять из application.cpp в emit ****Changed(settings->value("settings/zoom",KZoom).toInt());

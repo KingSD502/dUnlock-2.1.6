@@ -1,0 +1,64 @@
+Component{
+                         id: myDelegate
+                         Item {
+                            width: listView.cellWidth;
+                            height: listView.cellHeight
+                         Column {
+                             id: column
+                             anchors.centerIn: parent
+                             spacing: 0
+                             Image {
+                                 source: picture;
+                                 anchors.horizontalCenter: parent.horizontalCenter
+                             }
+                             Label {
+                                text: title;
+                                font.pixelSize: 15
+                                anchors.horizontalCenter: parent.horizontalCenter
+                                 }
+                             }
+
+                             MouseArea {
+                                 id: mousearea
+
+                                 anchors.fill: parent
+                                 onClicked: {
+                                     mainPage.pageStack.push(Qt.resolvedUrl(page))
+                                 }
+                             }
+                            }
+                         }
+
+                     ListModel{
+                         id: myModel
+                         ListElement {
+                             title: "Buttons"
+                             picture: "image/about.svg"
+                             page: "AboutPage.qml"
+                         }
+                         ListElement {
+                             title: "Buttons"
+                             picture: "image/AnimPage.svg"
+                             page: "AnimPage.qml"
+                         }
+                         ListElement {
+                             title: "Buttons"
+                             picture: "image/ContactPage.svg"
+                             page: "ContactPage.qml"
+                         }
+                         ListElement {
+                             title: "Buttons"
+                             picture: "image/FontPage.svg"
+                             page: "FontPage.qml"
+                         }
+                     }
+
+                     GridView{
+                         id: listView
+                         anchors.top: parent.top
+                         anchors.topMargin: 200
+                         anchors.leftMargin: 30
+                         anchors.fill: parent
+                         delegate: myDelegate
+                         model: myModel
+                     }

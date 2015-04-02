@@ -1,0 +1,558 @@
+Monday
+***
+Tuesday
+***
+Wednesday
+***
+Thursday
+***
+Friday
+***
+Saturday
+***
+Sunday
+***
+January
+***
+February
+***
+March
+***
+April
+***
+May
+***
+June
+***
+July
+***
+August
+***
+September
+***
+October
+***
+November
+***
+December
+***
+Unknown artist
+***
+The application works
+***
+Run at startup
+***
+Picture:
+***
+Set album art as wallpaper
+***
+Another lockscreen is launched. Disable it?
+***
+Another lockscreen
+***
+Show, when pressed:
+***
+Not selected
+***
+ key(s)
+***
+Menu or lock button
+***
+Publisher: Alexander Fokin
+Developer: Usanov-Kornilov Nickolay
+Send all your questions and wishes to
+support@symdeveloper.ru
+Authors update: Slava Morozov and KingSD
+***
+Resize mode
+***
+Stretch
+***
+Crop
+***
+Charging
+***
+Use homescreen wallpapers
+***
+Camera application
+***
+Use system font for clock
+***
+Menu
+***
+Lock key
+***
+Power Key
+***
+Green key
+***
+Red key
+***
+Camera key
+***
+Camera key (light press)
+***
+Cancel
+***
+Portrait
+***
+Follow device
+***
+Unable to load image
+***
+Application 1
+***
+Application 2
+***
+Application 3
+***
+Application 4
+***
+Application 5
+***
+Tap to search...
+***
+App launch panel
+***
+To show app launch panel select an icon with 4 squares on lock screen. To hide it - tap in the center of the round.
+***
+Application 6
+***
+Orientation
+***
+Landscape
+***
+Battery
+***
+Application 7
+***
+Application 8
+***
+Application 9
+***
+Application 10
+***
+Application 11
+***
+Application 12
+***
+Application 13
+***
+Application 14
+***
+Application 15
+***
+Application 16
+***
+Application 17
+***
+Application 18
+***
+Application 19
+***
+Application 20
+***
+Long tap (press and hold)
+***
+Displaying a widget after closing the player
+***
+Animation
+***
+Animation works
+***
+Animation example
+***
+Example
+***
+To preview animation, click on the lock
+***
+1st row
+***
+2nd row
+***
+3rd row
+***
+4th row
+***
+5th row
+***
+1st row
+***
+2nd row
+***
+3rd row
+***
+4th row
+***
+5th row
+***
+Toggle
+***
+Hide launcher
+***
+Hiding the launcher
+***
+Hide launcher
+***
+Camera button
+***
+Authors
+***
+Slava Morozov
+***
+Daniel Stulov
+***
+Clock
+***
+Standard / KitKat
+***
+Black / White
+***
+Help
+***
+Comparing fonts
+***
+Help with toggles
+***
+In this section, 3 toggle:
+Toggle KitKat / standard - if ON, the substrate is shown, if off - then there is no substrate (hours slightly larger).
+The second change font hours (if off, the standard as to version 2.1.2, if on,
+is used KitKat (slightly thinner)).
+Third tugl change the font color of hours (if off, then black, if on, then white), if the clock is visible KitKat.
+***
+To
+***
+After
+***
+Help
+***
+Launcher of standard applications
+***
+Notifications
+***
+Launcher
+***
+Version 3.0
+***
+Launcher of standard applications
+***
+Calling the launcher performed by swipe from left to right.
+Tap in any area to hide.
+Start applications:
+1 - Gallery
+2 - File manager
+3 - Dial (Quick Dialer)
+4 - Messages
+5 - Contacts
+6 - Music
+7 - Settings
+***
+Notifications
+***
+Calling the info-panel using a top-down swipe of stusbar.
+To hide, swipe upwards.
+In the curtain you see missed calls and sms.
+Tap on the icon 1 - settings
+***
+Launcher
+***
+Calling the launcher done on the icon ^.
+Hiding launcher done by tapping in any area.
+Setting the launcher carried out through section Launcher
+***
+Launcher
+***
+What's new
+***
+Authors
+***
+Help
+***
+Categories
+***
+Settings
+***
+Launcher
+***
+Music
+***
+Camera
+***
+Notifications
+***
+What's new
+***
+Info
+***
+Help
+***
+Exit
+***
+Settings
+***
+Info
+***
+Basic
+***
+Style
+***
+Info
+***
+Launcher
+***
+Music
+***
+Camera
+***
+Settings
+***
+Notifications
+***
+Statusbar
+***
+Animation
+***
+Clock
+***
+Background
+***
+What's new
+***
+Info
+***
+Authors
+***
+Help
+***
+Row 1,2,3
+***
+Row 4,5
+***
+Hide launcher
+***
+What's new
+***
+Info
+***
+Help
+***
+Exit
+***
+Cover
+***
+Sound of locking
+***
+Volume
+***
+OFF
+***
+Notification settings
+***
+Hide notifications
+***
+Hide SMS text
+***
+Switches
+***
+Settings
+***
+Pads (background?)
+***
+Dimming the wallpapers
+***
+If toggle is OFF, the status bar is Black, if toggle is ON, the status bar is transparent/semitransparent
+***
+Back
+***
+Exit
+***
+Status bar
+***
+Transparency settings of the status bar
+***
+Black/transparent
+***
+Color of icons set in status bar
+***
+Blue/White
+***
+Help
+***
+Help on toggles
+***
+Toggle Black/Transparent - if toggle is OFF, status bar is black; if toggle ON, the status bar is transparent.
+
+Toggle Blue/White - if toggle is OFF, the icons of status bar will be blue; if toggle ON, the icons of status bar will be white.
+***
+Background
+***
+KitKat/standard
+***
+Background of player
+***
+Help
+***
+Help on toggles
+***
+Toggle background of player: if ON - the substrate is shown; if it is OFF - then there is no substrate.
+***
+Launcher
+***
+1st row
+***
+2nd row
+***
+3rd row
+***
+4th row
+***
+5th row
+***
+What's new
+***
+Version 2.0
+***
+Version 2.1.X
+***
+Version 2.2
+***
+Version 3.0
+***
+Version 2.0
+***
+Unlock in any direction
+- Removed unnecessary icons with circle
+- Completely redesigned launcher (20 applications)
+- Call the launcher is done by pressing the arrow
+- Moved the camera icon in the lower right corner
+- Reworked program menu
+- Reworked player
+- Added the substrate under the clock, date player (standalone version)
+- Reworked notifications
+***
+-Reworked the settings menu, added sections:
+-launcher
+-camera
+-notifications
+-music
+-info
+-settings
+-what's new
+-authors
+-battery indicator is now in the range of 0% -100%
+-widget player now hides
+-notification now on curtain
+-added a new launcher for standard applications
+***
+-Added Help section
+-Increased area of call notification panel
+-Removed the choice of orientation settings, now only portrait (temporarily until modify landscape orientation)
+-Added a version without the substrate (in the style of kit kat)
+***
+-The phone is not blocked during the nomination sidebar and notifications panel
+-Added tactile feedback (not yet everywhere)
+-Now you cannot unlock the phone via the extended notification bar
+-Backgrounds-menu replaced by gradients (on the launch speed is not affected, but the weight has decreased installation file)
+2-In the settings menu:
+- Basic
+- Item
+-Reworked the settings menu launcher (each row in its own settings tab)
+-Changed Music:
+-Added 2 tabs - Cover and lock sound (not yet working)
+-Changed Settings:
+-Added 2 tabs - Switches and Settings
+-Added switch for dimming wallpaper (true for versions without substrate with light wallpaper) in Settings
+***
+-Added switch to hide Launcher (Launcher - Switch)
+-Added a new section in the main menu style. They included the following:
+-Section Status Bar (detailed information on the Help button)
+-Font section (for details on the Help button)
+-Pads/Background section (for more information on the Help button)
+Animation-Section (for more information on the button Animation Sample)
+***
+Version 2.2
+***
+Under development ...
+***
+Version 3.0
+***
+Under development ...
+***
+-Added support for English language
+-Added White theme (section Style - Theme)
+-Font-Section renamed section Clock
+-Added switch "Sound unlock"
+-Clock unsupported growing stronger.
+***
+-Added a section in the main menu Skins
+-Added a skin style IOS7
+-Added a section section IOS7 Skins
+-Caption-unlock can change your (if selected skin IOS7)
+-Added wallpaper IOS 7
+-Added Note
+***
+-Added Skin SwipeUnlock
+-Added the wallpaper in the style of MeeGo
+-Section Item removed from the main menu
+-Section info now on the toolbar
+***
+Under development ...
+***
+Theme
+***
+White theme
+***
+Font
+***
+Background
+***
+Comparison clock
+***
+New SMS
+***
+Change swype
+***
+Skins
+***
+examples skins
+***
+Choice of skin
+***
+dUnlock
+***
+IOS7
+***
+Text Unlock
+***
+Enter the text
+***
+Vibration works
+***
+Note
+***
+Text note
+***
+Note work
+***
+SwypeUnlock
+***
+Sensitivity
+***
+Horizontal
+***
+Vertical
+***
+Easy
+***
+Hard
+***
+Cancel
+***
+Gesture
+***
+Horizontal and Vertical
+***
+Horizontal
+***
+Vertical
+***
